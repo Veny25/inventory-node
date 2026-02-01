@@ -1,0 +1,7 @@
+{
+  "name": "Copy of InventoryPro",
+  "description": "Professional asset management with vision-powered identification and automated inventory tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
