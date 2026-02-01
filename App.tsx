@@ -1,7 +1,7 @@
-
 import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { ViewMode, InventoryItem, HistoryEntry, User, Organization } from './types';
 import { INITIAL_INVENTORY } from './constants';
+
 import Layout from './components/Layout.tsx';
 import Dashboard from './components/Dashboard.tsx';
 import Scanner from './components/Scanner.tsx';
@@ -9,7 +9,6 @@ import ChatBot from './components/ChatBot.tsx';
 import StockList from './components/StockList.tsx';
 import EditItemModal from './components/EditItemModal.tsx';
 import Auth from './components/Auth.tsx';
-
 
 const STORAGE_PREFIX = 'inventory_pro_org_v2_';
 const AUTH_USER_KEY = 'inventory_pro_user_v2';
